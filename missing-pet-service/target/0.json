@@ -1,0 +1,69 @@
+[
+  {
+    "V697624": {
+      "id": "V697624",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V697523",
+        "LEX": "LOST"
+      },
+      "start": 2,
+      "end": 16
+    },
+    "V697523": {
+      "id": "V697523",
+      "indicator": "F",
+      "type": "LOSE",
+      "word": "LOSE",
+      "roles": {
+        "AGENT": "#V697481",
+        "AFFECTED": "#V697537",
+        "TENSE": "PAST",
+        "LEX": "LOST"
+      },
+      "start": 2,
+      "end": 16
+    },
+    "V697481": {
+      "id": "V697481",
+      "indicator": "PRO",
+      "type": "PERSON",
+      "word": "I",
+      "roles": {
+        "PROFORM": "I",
+        "LEX": "I",
+        "COREF": "USER"
+      },
+      "start": 2,
+      "end": 4
+    },
+    "V697537": {
+      "id": "V697537",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "PET",
+      "roles": {
+        "ASSOC-POSS": "#V697528",
+        "LEX": "PET"
+      },
+      "start": 9,
+      "end": 16
+    },
+    "V697528": {
+      "id": "V697528",
+      "indicator": "PRO",
+      "type": "PERSON",
+      "word": "MY",
+      "roles": {
+        "LEX": "MY",
+        "PROFORM": "MY",
+        "COREF": "USER"
+      },
+      "start": 9,
+      "end": 16
+    },
+    "root": "V697624"
+  }
+]

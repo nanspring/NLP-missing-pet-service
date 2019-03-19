@@ -1,0 +1,113 @@
+[
+  {
+    "V718949": {
+      "id": "V718949",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V716945",
+        "LEX": "LOST"
+      },
+      "start": 2,
+      "end": 40
+    },
+    "V716945": {
+      "id": "V716945",
+      "indicator": "F",
+      "type": "LOSE",
+      "word": "LOSE",
+      "roles": {
+        "AFFECTED": "#V716923",
+        "TIME": [
+          {
+            "@rdf:resource": "#V716954"
+          },
+          {
+            "@rdf:resource": "#V717037"
+          }
+        ],
+        "TENSE": "PAST",
+        "PASSIVE": "+",
+        "LEX": "LOST"
+      },
+      "start": 2,
+      "end": 40
+    },
+    "V716923": {
+      "id": "V716923",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "PET",
+      "roles": {
+        "LEX": "PET"
+      },
+      "start": 2,
+      "end": 10
+    },
+    "V717037": {
+      "id": "V717037",
+      "indicator": "F",
+      "type": "TIME-SPAN-REL",
+      "word": null,
+      "roles": {
+        "FIGURE": "#V716945",
+        "GROUND": "#V717084"
+      },
+      "start": 19,
+      "end": 29
+    },
+    "V717084": {
+      "id": "V717084",
+      "indicator": "THE",
+      "type": "TIME-LOC",
+      "word": null,
+      "roles": {
+        "DAY-OF-WEEK": "#V716950",
+        "LEX": "YESTERDAY"
+      },
+      "start": 19,
+      "end": 29
+    },
+    "V716950": {
+      "id": "V716950",
+      "indicator": "PRO",
+      "type": "YESTERDAY",
+      "word": "YESTERDAY",
+      "roles": {
+        "PROFORM": "YESTERDAY",
+        "LEX": "YESTERDAY"
+      },
+      "start": 19,
+      "end": 29
+    },
+    "V716954": {
+      "id": "V716954",
+      "indicator": "F",
+      "type": "TIME-CLOCK-REL",
+      "word": "APPROXIMATE",
+      "roles": {
+        "GROUND": "#V716979",
+        "FIGURE": "#V716945",
+        "LEX": "AROUND"
+      },
+      "start": 29,
+      "end": 40
+    },
+    "V716979": {
+      "id": "V716979",
+      "indicator": "THE",
+      "type": "TIME-LOC",
+      "word": null,
+      "roles": {
+        "NAME-OF": "(FIVE PM)",
+        "HOUR": "5",
+        "AM-PM": "(:* TIME-OBJECT PM)",
+        "LEX": "(FIVE PM)"
+      },
+      "start": 36,
+      "end": 40
+    },
+    "root": "V718949"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "V730543": {
+      "id": "V730543",
+      "indicator": "F",
+      "type": "LOSE",
+      "word": "LOSE",
+      "roles": {
+        "AFFECTED": "#V730521",
+        "LOCATION": "#V730571",
+        "MOD": "#V730555",
+        "TENSE": "PAST",
+        "PASSIVE": "+",
+        "LEX": "LOST"
+      },
+      "start": 2,
+      "end": 48
+    },
+    "V730521": {
+      "id": "V730521",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "PET",
+      "roles": {
+        "LEX": "PET"
+      },
+      "start": 2,
+      "end": 10
+    },
+    "V730555": {
+      "id": "V730555",
+      "indicator": "F",
+      "type": "RATE-REL",
+      "word": "AT",
+      "roles": {
+        "FIGURE": "#V730543",
+        "LEX": "AT"
+      },
+      "start": 19,
+      "end": 22
+    },
+    "V730571": {
+      "id": "V730571",
+      "indicator": "F",
+      "type": "AT-LOC",
+      "word": "AT",
+      "roles": {
+        "GROUND": "#V730621",
+        "FIGURE": "#V730543",
+        "LEX": "AT"
+      },
+      "start": 22,
+      "end": 48
+    },
+    "V730621": {
+      "id": "V730621",
+      "indicator": "A",
+      "type": "ROUTE",
+      "word": "ROAD",
+      "roles": {
+        "MOD": "#V730626",
+        "LEX": "ROAD"
+      },
+      "start": 25,
+      "end": 48
+    },
+    "V730626": {
+      "id": "V730626",
+      "indicator": "F",
+      "type": "NAMING",
+      "word": "NAME",
+      "roles": {
+        "NEUTRAL": "#V730621",
+        "FORMAL": "#V730647",
+        "VFORM": "PASSIVE",
+        "LEX": "NAMED"
+      },
+      "start": 32,
+      "end": 48
+    },
+    "V730647": {
+      "id": "V730647",
+      "indicator": "BARE",
+      "type": "REFERENTIAL-SEM",
+      "word": "ROCHESTER",
+      "roles": {
+        "LEX": "ROCHESTER"
+      },
+      "start": 38,
+      "end": 48
+    },
+    "root": "V730543"
+  }
+]

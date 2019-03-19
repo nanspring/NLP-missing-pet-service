@@ -1,0 +1,68 @@
+[
+  {
+    "V744229": {
+      "id": "V744229",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V743965",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 22
+    },
+    "V743965": {
+      "id": "V743965",
+      "indicator": "F",
+      "type": "BE",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V743956",
+        "NEUTRAL1": "#V743995",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 22
+    },
+    "V743956": {
+      "id": "V743956",
+      "indicator": "THE",
+      "type": "LINGUISTIC-OBJECT",
+      "word": "PET-NAME",
+      "roles": {
+        "ASSOC-POSS": "#V743931",
+        "LEX": "PET-NAME",
+        "WNSENSE": "pet_name%1:10:00"
+      },
+      "start": 2,
+      "end": 14
+    },
+    "V743931": {
+      "id": "V743931",
+      "indicator": "PRO",
+      "type": "PERSON",
+      "word": "MY",
+      "roles": {
+        "LEX": "MY",
+        "PROFORM": "MY",
+        "COREF": "USER"
+      },
+      "start": 2,
+      "end": 14
+    },
+    "V743995": {
+      "id": "V743995",
+      "indicator": "BARE",
+      "type": "REFERENTIAL-SEM",
+      "word": "MARY",
+      "roles": {
+        "LEX": "MARY"
+      },
+      "start": 17,
+      "end": 22
+    },
+    "root": "V744229"
+  }
+]

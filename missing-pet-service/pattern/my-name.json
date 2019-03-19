@@ -1,0 +1,6 @@
+{
+  "root": "BE", 
+  "neutral": {"root": "NAME",
+             "assoc-poss":{"root":"PERSON"}
+             }
+}

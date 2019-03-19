@@ -1,0 +1,66 @@
+[
+  {
+    "V714968": {
+      "id": "V714968",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V714748",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 25
+    },
+    "V714748": {
+      "id": "V714748",
+      "indicator": "F",
+      "type": "BE",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V714736",
+        "NEUTRAL1": "#V714762",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 25
+    },
+    "V714736": {
+      "id": "V714736",
+      "indicator": "BARE",
+      "type": "QUANTITY-ABSTR",
+      "word": "NUMBER",
+      "roles": {
+        "ASSOC-WITH": "#V714719",
+        "LEX": "NUMBER"
+      },
+      "start": 2,
+      "end": 15
+    },
+    "V714719": {
+      "id": "V714719",
+      "indicator": "KIND",
+      "type": "DEVICE",
+      "word": "PHONE",
+      "roles": {
+        "LEX": "PHONE"
+      },
+      "start": 2,
+      "end": 15
+    },
+    "V714762": {
+      "id": "V714762",
+      "indicator": "THE",
+      "type": "NUMBER",
+      "word": null,
+      "roles": {
+        "NUMBER": "1234567",
+        "LEX": "1234567"
+      },
+      "start": 18,
+      "end": 25
+    },
+    "root": "V714968"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "V690157": {
+      "id": "V690157",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V689408",
+        "LEX": "IS"
+      },
+      "start": 3,
+      "end": 23
+    },
+    "V689408": {
+      "id": "V689408",
+      "indicator": "F",
+      "type": "BE",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V689399",
+        "NEUTRAL1": "#V689440",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 3,
+      "end": 23
+    },
+    "V689399": {
+      "id": "V689399",
+      "indicator": "THE",
+      "type": "LINGUISTIC-OBJECT",
+      "word": "PET-NAME",
+      "roles": {
+        "LEX": "PET-NAME",
+        "WNSENSE": "pet_name%1:10:00"
+      },
+      "start": 3,
+      "end": 15
+    },
+    "V689440": {
+      "id": "V689440",
+      "indicator": "BARE",
+      "type": "INTERNAL-ENCLOSURE",
+      "word": "JOHN",
+      "roles": {
+        "LEX": "JOHN"
+      },
+      "start": 18,
+      "end": 23
+    },
+    "root": "V690157"
+  }
+]

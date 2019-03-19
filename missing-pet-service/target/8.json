@@ -1,0 +1,67 @@
+[
+  {
+    "V676457": {
+      "id": "V676457",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V676116",
+        "LEX": "LOST"
+      },
+      "start": 2,
+      "end": 35
+    },
+    "V676116": {
+      "id": "V676116",
+      "indicator": "F",
+      "type": "LOSE",
+      "word": "LOSE",
+      "roles": {
+        "AFFECTED": "#V676094",
+        "LOCATION": "#V676127",
+        "TENSE": "PAST",
+        "PASSIVE": "+",
+        "LEX": "LOST"
+      },
+      "start": 2,
+      "end": 35
+    },
+    "V676094": {
+      "id": "V676094",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "DOG",
+      "roles": {
+        "LEX": "DOG"
+      },
+      "start": 2,
+      "end": 10
+    },
+    "V676127": {
+      "id": "V676127",
+      "indicator": "F",
+      "type": "AT-LOC",
+      "word": "AT",
+      "roles": {
+        "GROUND": "#V676183",
+        "FIGURE": "#V676116",
+        "LEX": "AT"
+      },
+      "start": 19,
+      "end": 35
+    },
+    "V676183": {
+      "id": "V676183",
+      "indicator": "A",
+      "type": "RESTAURANT",
+      "word": "RESTAURANT",
+      "roles": {
+        "LEX": "RESTAURANT"
+      },
+      "start": 22,
+      "end": 35
+    },
+    "root": "V676457"
+  }
+]

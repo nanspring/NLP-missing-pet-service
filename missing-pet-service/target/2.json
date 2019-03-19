@@ -1,0 +1,106 @@
+[
+  {
+    "V700171": {
+      "id": "V700171",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V699879",
+        "LEX": "HAS"
+      },
+      "start": 3,
+      "end": 40
+    },
+    "V699879": {
+      "id": "V699879",
+      "indicator": "F",
+      "type": "HAVE",
+      "word": "HAVE",
+      "roles": {
+        "NEUTRAL": "#V699874",
+        "NEUTRAL1": "#V699909",
+        "TENSE": "PRES",
+        "LEX": "HAS"
+      },
+      "start": 3,
+      "end": 40
+    },
+    "V699874": {
+      "id": "V699874",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "DOG",
+      "roles": {
+        "LEX": "DOG"
+      },
+      "start": 3,
+      "end": 11
+    },
+    "V699909": {
+      "id": "V699909",
+      "indicator": "INDEF-SET",
+      "type": "EXTERNAL-BODY-PART",
+      "word": null,
+      "roles": {
+        "OPERATOR": "AND",
+        "SEQUENCE": "#V699904",
+        "SEQUENCE1": "#V699935",
+        "LEX": "HAIR"
+      },
+      "start": 15,
+      "end": 40
+    },
+    "V699904": {
+      "id": "V699904",
+      "indicator": "BARE",
+      "type": "EXTERNAL-BODY-PART",
+      "word": "HAIR",
+      "roles": {
+        "MOD": "#V699895",
+        "LEX": "HAIR"
+      },
+      "start": 15,
+      "end": 26
+    },
+    "V699895": {
+      "id": "V699895",
+      "indicator": "F",
+      "type": "BROWN",
+      "word": "BROWN",
+      "roles": {
+        "FIGURE": "#V699904",
+        "SCALE": "BROWNNESS*1--07--00",
+        "LEX": "BROWN"
+      },
+      "start": 15,
+      "end": 21
+    },
+    "V699935": {
+      "id": "V699935",
+      "indicator": "INDEF-SET",
+      "type": "EXTERNAL-BODY-PART",
+      "word": "EYE",
+      "roles": {
+        "MOD": "#V699918",
+        "LEX": "EYES"
+      },
+      "start": 30,
+      "end": 40
+    },
+    "V699918": {
+      "id": "V699918",
+      "indicator": "F",
+      "type": "BLUE",
+      "word": "BLUE",
+      "roles": {
+        "FIGURE": "#V699935",
+        "SCALE": "COLOR-SCALE",
+        "LEX": "BLUE"
+      },
+      "start": 30,
+      "end": 35
+    },
+    "root": "V700171"
+  }
+]

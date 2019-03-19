@@ -1,0 +1,67 @@
+[
+  {
+    "V698229": {
+      "id": "V698229",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V698069",
+        "LEX": "IS"
+      },
+      "start": 3,
+      "end": 19
+    },
+    "V698069": {
+      "id": "V698069",
+      "indicator": "F",
+      "type": "BE",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V698060",
+        "NEUTRAL1": "#V698127",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 3,
+      "end": 19
+    },
+    "V698060": {
+      "id": "V698060",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "PET",
+      "roles": {
+        "ASSOC-POSS": "#V698057",
+        "LEX": "PET"
+      },
+      "start": 3,
+      "end": 10
+    },
+    "V698057": {
+      "id": "V698057",
+      "indicator": "PRO",
+      "type": "PERSON",
+      "word": "MY",
+      "roles": {
+        "LEX": "MY",
+        "PROFORM": "MY",
+        "COREF": "USER"
+      },
+      "start": 3,
+      "end": 10
+    },
+    "V698127": {
+      "id": "V698127",
+      "indicator": "A",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "DOG",
+      "roles": {
+        "LEX": "DOG"
+      },
+      "start": 13,
+      "end": 19
+    },
+    "root": "V698229"
+  }
+]

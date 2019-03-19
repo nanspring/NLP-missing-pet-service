@@ -1,0 +1,67 @@
+[
+  {
+    "V714168": {
+      "id": "V714168",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V713806",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 18
+    },
+    "V713806": {
+      "id": "V713806",
+      "indicator": "F",
+      "type": "BE",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V713794",
+        "NEUTRAL1": "#V713838",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 18
+    },
+    "V713794": {
+      "id": "V713794",
+      "indicator": "THE",
+      "type": "NAME",
+      "word": "NAME",
+      "roles": {
+        "ASSOC-POSS": "#V713780",
+        "LEX": "NAME"
+      },
+      "start": 2,
+      "end": 10
+    },
+    "V713780": {
+      "id": "V713780",
+      "indicator": "PRO",
+      "type": "PERSON",
+      "word": "MY",
+      "roles": {
+        "LEX": "MY",
+        "PROFORM": "MY",
+        "COREF": "USER"
+      },
+      "start": 2,
+      "end": 10
+    },
+    "V713838": {
+      "id": "V713838",
+      "indicator": "BARE",
+      "type": "INTERNAL-ENCLOSURE",
+      "word": "JOHN",
+      "roles": {
+        "LEX": "JOHN"
+      },
+      "start": 13,
+      "end": 18
+    },
+    "root": "V714168"
+  }
+]

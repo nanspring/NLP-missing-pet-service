@@ -1,0 +1,9 @@
+{
+  "root": "BE", 
+  "neutral": {"root": "QUANTITY-ABSTR",
+             "assoc-with":{"root":"DEVICE"}
+             },
+  "neutral1": {
+    "root": "NUMBER"
+  }
+}
